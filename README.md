@@ -28,3 +28,10 @@ The explaination of my predictions are as follows:
 - LSTM RNN: Overcoming the vanishing gradient problem will further improve performance and consider long term trends
 - GRU: Improves on LSTM with better accuracy and training efficiency
 - Prophet: Specially designed by Facebook to Predict future values and thus should have the best performance
+
+## Stock Prediction Hypothesis
+Based on the historical data of major stocks such as Amazon, Apple and Google, I predict most stocks will have an upwards trajectory and comparable yearly trends. For example, Amazon's one year stock history has an increase during the summer months and December holiday season.
+
+> **_NOTE1:_**  I believe my standard models will generalize to stocks that historically follow these common or predictable patterns, but not as well to less predictable stocks.
+
+> **_NOTE2:_** I believe the prophet model weill best generalize to even historically unpredictable stocks due to its complexity, Prophet is a pre-trained model already designed to handle a variety of stocks.
