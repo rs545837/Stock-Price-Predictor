@@ -22,7 +22,7 @@ Yahoo Finance data was collected using the yfinance Python modeule for complete 
 
 ## Model Hypotheses
 The explaination of my predictions are as follows:
-- Linear Refression: Prone to overfitting and too simple
+- Linear Regression: Prone to overfitting and too simple
 - MLP: Additional layers will improve pattern recognition
 - Simple RNN: Prone to vanishing gradient problem. Will still perform acceptably as stock prices are drive by current trends.
 - LSTM RNN: Overcoming the vanishing gradient problem will further improve performance and consider long term trends
